@@ -57,10 +57,12 @@ const numero3 = '25';
 4 Condicionales
 
 Dado los siguientes valores numéricos:
+```jsx
 const numero1 = 10;
 const numero2 = 20;
 const numero3 = 30;
-​
+​```
+
 Imprimir en consola el número mayor de los tres.
 Imprimir en consola el número menor de los tres.
 Imprimir en consola si el numero1 es par o impar.
@@ -69,14 +71,17 @@ Imprimir en consola si el numero3 es par o impar.
 Imprimir en consola si el numero1 es múltiplo de 5.
 Imprimir en consola si el numero2 es múltiplo de 5.
 Imprimir en consola si el numero3 es múltiplo de 5.
+
 Ejemplo
+
+```jsx
 const numero1 = 30
 const numero2 = 20
 
 if (numero1 > numero2) {
   console.log('numero1 es mayor que numero2')
 }
-
+```
 5 Ciclos
 
 1. Imprimir en consola los números del 1 al 10.
@@ -89,6 +94,8 @@ if (numero1 > numero2) {
 8. Imprimir en consola los números del 1 al 10 pero solo los múltiplos de 3 o 5.
 
 ### Ejemplo
+
+```jsx
 for (let i = 0; i < 10; i++) {
   console.log(i)
 }
@@ -98,6 +105,8 @@ for (let i = 0; i < 10; i++) {
   // 2
   // ...
   // 9
+
+```
 
 6 Funciones
 
@@ -109,6 +118,8 @@ Crear una función que reciba como parámetro 2 números y los multiplique.
 Crear una función que reciba un string y devuelva la longitud del string.
 
 Ejemplo
+
+```jsx
 function suma (numero1, numero2) {
   return numero1 + numero2
 }
@@ -116,13 +127,17 @@ function suma (numero1, numero2) {
   const resultado = suma(10, 20)
   console.log(resultado) // 30
 
+```
 7  Arrays
 
 Crea una función que reciba como parámetro un array de números y retorne la suma de todos los números del array.
 Crea una función ( o varias) que reciba como parámetro un array de números y retorne el promedio de todos los números del array.
 Crea una función que tome un arreglo de strings como parámetro y devuelva un nuevo arreglo que contenga los mismos strings pero con todas las letras en mayúsculas.
 Crea una función que tome un arreglo de números como parámetro y devuelva un nuevo arreglo que contenga solo los números pares.
+
 Ejemplo
+
+```jsx
 const numeros = [1, 2, 3, 4, 5]
 // Agregar un elemento al final del arreglo
 numeros.push(6)
@@ -132,6 +147,8 @@ console.log(numeros) // [1, 2, 3, 4, 5, 6]
 numeros.pop()
 console.log(numeros) // [0, 1, 2, 3, 4, 5]
 
+```
+
 8 Objetos
 
 1. **Crear un objeto de persona**: Define un objeto llamado "persona" que tenga propiedades como nombre, edad y género. Luego, muestra la información de esa persona por la consola.
@@ -139,7 +156,7 @@ console.log(numeros) // [0, 1, 2, 3, 4, 5]
 
 ### Ejemplo
 
----
+```jsx
 
 Crear un objeto llamado computador y definir sus propiedades, las cuales son:
 
@@ -171,6 +188,7 @@ console.log(typeof computador.marca); // string
 console.log(typeof computador.enciende); // boolean
 console.log(typeof computador.precio); // number
 
+```
 9 Desestructuración en JavaScript
 
 1. Utiliza desestructuración para extraer las propiedades `nombre`, `apellido` y `ciudad` del objeto `usuario`.
@@ -184,6 +202,7 @@ console.log(typeof computador.precio); // number
 
 Tienes un objeto que representa a un usuario con su información personal, contactos, y algunos intereses. Necesitas extraer varios valores utilizando desestructuración para utilizarlos posteriormente en el código.
 
+```jsx
 const usuario = {
   nombre: 'Diego',
   apellido: 'Salazar',
@@ -218,3 +237,5 @@ const usuario = {
 // @diego
 // Villa los corales
 // 123
+
+```
